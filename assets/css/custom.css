@@ -1,12 +1,27 @@
 .required{
     color: red;
 }
-#img_sdacked{
+.about_drc, .drc_contacts{
+    margin: 2%;
+}
+.about_drc p, .drc_contacts p, .about_drc h5{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.about_drc h1, .drc_programs h1, .drc_contacts h1{
+    font-size: 32px;
+    line-height: 1.5;
+}
+.drc_programs h1{
+    text-align: center;
+    margin: 5%;
+} 
+.drc_programs{
+    margin: 5%;
+} 
+.drc_programs img{
     width: 100%;
-}
-.img_product{
     border-radius: 50%;
-}
-.content1{
-    margin-left: 10em;
-}
+} 
+

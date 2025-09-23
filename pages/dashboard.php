@@ -1,161 +1,63 @@
 <div class="container-fluid">
    <div class="row">
       <div class="main-header">
-         <h4>Dashboard</h4>
+         <h1>Danish Refugee Council SDACKED Program</h1>
       </div>
    </div>
+   <div class="row">
+      <div class="col-sm-12"><h4>Who is the Danish Refugee Council?</h4></div>
+   </div>
    <!-- 4-blocks row start -->
-   <div class="row dashboard-header">
-      <div class="col-lg-3 col-md-6">
-         <div class="card dashboard-product">
-            <span>Products</span>
-            <h2 class="dashboard-total-products">4500</h2>
-            <span class="label label-warning">Sales</span>Arriving Today
-            <div class="side-box">
-               <i class="ti-signal text-warning-color"></i>
-            </div>
-         </div>
+   <div class="row content1">
+      <div class="col-md-6 col-sm-12">
+         <p>Founded in 1956, the Danish Refugee Council (DRC) is a leading international NGO and one of the few <br>
+         with specific expertise in forced displacement. Active in 40 countries, with 9,000 employees and <br>
+         supported by 7,500 volunteers, DRC protects, advocates, and builds sustainable futures for refugees <br>
+         and other displacement-affected people and communities. DRC works during displacement at all <br>
+         stages: in the acute crisis, in displacement, when settling and integrating in a new place, or upon <br>
+         return. DRC provides protection and life-saving humanitarian assistance, supporting displaced persons <br>
+         in becoming self-reliant and included in hosting societies. DRC works with civil society and responsible <br>
+         authorities to promote the protection of refugee rights and peaceful coexistence. <br>
+         DRC has been operational in Kenya since 2005 and is one of the United Nations High Commissioner for <br>
+         Refugees (UNHCR) largest implementing partners in refugee response. The organization is present in <br>
+         Garissa (Dadaab & Garissa), Turkana (Kakuma, Kalobeyei & Lodwar), Lamu, Isiolo, Marsabit, Nairobi, <br>
+         and Mandera counties.</p>
       </div>
-      <div class="col-lg-3 col-md-6">
-         <div class="card dashboard-product">
-            <span>Products</span>
-            <h2 class="dashboard-total-products">37,500</h2>
-            <span class="label label-primary">Views</span>View Today
-            <div class="side-box ">
-               <i class="ti-gift text-primary-color"></i>
-            </div>
-         </div>
-      </div>
-      <div class="col-lg-3 col-md-6">
-         <div class="card dashboard-product">
-            <span>Products</span>
-            <h2 class="dashboard-total-products">$<span>30,780</span></h2>
-            <span class="label label-success">Sales</span>Reviews
-            <div class="side-box">
-               <i class="ti-direction-alt text-success-color"></i>
-            </div>
-         </div>
-      </div>
-      <div class="col-lg-3 col-md-6">
-         <div class="card dashboard-product">
-            <span>Products</span>
-            <h2 class="dashboard-total-products">$<span>30,780</span></h2>
-            <span class="label label-danger">Sales</span>Reviews
-            <div class="side-box">
-               <i class="ti-rocket text-danger-color"></i>
-            </div>
-         </div>
+      <div class="col-md-6 col-sm-12">
+         <img id="img_sdacked" src="../assets/images/sdacked.jpg" alt="SDACKED">
       </div>
    </div>
    <!-- 4-blocks row end -->
 
    <!-- 2-1 block start -->
    <div class="row">
-      <div class="col-xl-8 col-lg-12">
-         <div class="card">
-            <div class="card-block">
-               <div class="table-responsive">
-                  <table class="table m-b-0 photo-table">
-                     <thead>
-                        <tr class="text-uppercase">
-                           <th>Photo</th>
-                           <th>Project</th>
-                           <th>Completed</th>
-                           <th>Status</th>
-                           <th>Date</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <th>
-                              <img class="img-fluid img-circle" src="../assets/images/avatar-1.png" alt="User">
-                           </th>
-                           <td>Appestia Project
-                              <p><i class="icofont icofont-clock-time"></i>Created 14.9.2016</p>
-                           </td>
-                           <td>
-                              <span class="pie" style="display: none;">226,134</span><svg class="peity" height="30" width="30"><path d="M 15.000000000000002 0 A 15 15 0 1 1 4.209902994920235 25.41987555688496 L 15 15" fill="#2196F3"></path><path d="M 4.209902994920235 25.41987555688496 A 15 15 0 0 1 14.999999999999996 0 L 15 15" fill="#ccc"></path></svg>
-                           </td>
-                           <td>50%</td>
-                           <td>October 21, 2015</td>
-                        </tr>
-                        <tr>
-                           <th>
-                              <img class="img-fluid img-circle" src="../assets/images/avatar-1.png" alt="User">
-                           </th>
-                           <td>Contract with belife Company
-                              <p><i class="icofont icofont-clock-time"></i>Created 20.10.2016</p>
-                           </td>
-                           <td>
-                              <span class="pie" style="display: none;">0.52/1.561</span><svg class="peity" height="30" width="30"><path d="M 15.000000000000002 0 A 15 15 0 0 1 28.00043211809656 22.482564048691025 L 15 15" fill="#2196F3"></path><path d="M 28.00043211809656 22.482564048691025 A 15 15 0 1 1 14.999999999999996 0 L 15 15" fill="#ccc"></path></svg>
-                           </td>
-                           <td>70%</td>
-                           <td>November 21, 2015</td>
-                        </tr>
-                        <tr>
-                           <th>
-                              <img class="img-fluid img-circle" src="../assets/images/avatar-1.png" alt="User">
-                           </th>
-                           <td>Web Consultancy project
-                              <p><i class="icofont icofont-clock-time"></i>Created 20.10.2016</p>
-                           </td>
-                           <td>
-                              <span class="pie" style="display: none;">1,4</span><svg class="peity" height="30" width="30"><path d="M 15.000000000000002 0 A 15 15 0 0 1 29.265847744427305 10.36474508437579 L 15 15" fill="#2196F3"></path><path d="M 29.265847744427305 10.36474508437579 A 15 15 0 1 1 14.999999999999996 0 L 15 15" fill="#ccc"></path></svg>
-                           </td>
-                           <td>40%</td>
-                           <td>September 21, 2015</td>
-                        </tr>
-                        <tr>
-                           <th>
-                              <img class="img-fluid img-circle" src="../assets/images/avatar-1.png" alt="User">
-                           </th>
-                           <td>Contract with belife Company
-                              <p><i class="icofont icofont-clock-time"></i>Created 20.10.2016</p>
-                           </td>
-                           <td>
-                              <span class="pie" style="display: none;">0.52/1.561</span><svg class="peity" height="30" width="30"><path d="M 15.000000000000002 0 A 15 15 0 0 1 28.00043211809656 22.482564048691025 L 15 15" fill="#2196F3"></path><path d="M 28.00043211809656 22.482564048691025 A 15 15 0 1 1 14.999999999999996 0 L 15 15" fill="#ccc"></path></svg>
-                           </td>
-                           <td>70%</td>
-                           <td>November 21, 2015</td>
-                        </tr>
-                        <tr>
-                           <th>
-                              <img class="img-fluid img-circle" src="../assets/images/avatar-1.png" alt="User">
-                           </th>
-                           <td>Contract with belife Company
-                              <p><i class="icofont icofont-clock-time"></i>Created 20.10.2016</p>
-                           </td>
-                           <td>
-                              <span class="pie" style="display: none;">0.52/1.561</span><svg class="peity" height="30" width="30"><path d="M 15.000000000000002 0 A 15 15 0 0 1 28.00043211809656 22.482564048691025 L 15 15" fill="#2196F3"></path><path d="M 28.00043211809656 22.482564048691025 A 15 15 0 1 1 14.999999999999996 0 L 15 15" fill="#ccc"></path></svg>
-                           </td>
-                           <td>70%</td>
-                           <td>November 21, 2015</td>
-                        </tr>
-                        <tr>
-                           <th>
-                              <img class="img-fluid img-circle" src="../assets/images/avatar-1.png" alt="User">
-                           </th>
-                           <td>Contract with belife Company
-                              <p><i class="icofont icofont-clock-time"></i>Created 20.10.2016</p>
-                           </td>
-                           <td>
-                              <span class="pie" style="display: none;">0.52/1.561</span><svg class="peity" height="30" width="30"><path d="M 15.000000000000002 0 A 15 15 0 0 1 28.00043211809656 22.482564048691025 L 15 15" fill="#2196F3"></path><path d="M 28.00043211809656 22.482564048691025 A 15 15 0 1 1 14.999999999999996 0 L 15 15" fill="#ccc"></path></svg>
-                           </td>
-                           <td>70%</td>
-                           <td>November 21, 2015</td>
-                        </tr>
-
-                     </tbody>
-                  </table>
-               </div>
-            </div>
-         </div>
+      <div class="col-sm-12"><h4>Featured Programs</h4></div>
+   </div>
+   <div class="row">
+      <div class="col-md-4 col-sm-12">
+         <img class="img_product" src="../assets/images/product1.png" alt="Product">
       </div>
-      <div class="col-xl-4 col-lg-12">
-         <div class="card">
-            
-         </div>
+      <div class="col-md-4 col-sm-12">
+         <img class="img_product" src="../assets/images/product2.png" alt="Product">
+      </div>
+      <div class="col-md-4 col-sm-12">
+         <img class="img_product" src="../assets/images/product3.png" alt="Product">
       </div>
    </div>
    <!-- 2-1 block end -->
+   <div class="row">
+      <div class="col-md-6 col-sm-12">
+         <h1>Contact Us</h1>
+         <p>Interested in working together? Fill out some info and we will be in touch shortly. We can’t wait to hear from you!</p>
+      </div>
+      <div class="col-md-6 col-sm-12">
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-md-6 col-sm-12">
+         <h1>Your Site Title</h1>
+      </div>
+      <div class="col-md-6 col-sm-12">
+      </div>
+   </div><br><br>
 </div>

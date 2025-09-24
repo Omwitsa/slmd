@@ -110,3 +110,19 @@
     </div>
 <!-- 2-1 block end -->
 </div>
+
+<!-- $(document).on('submit', '#promoForm', function(e){
+  e.preventDefault();
+  //alert('working');
+  var form_data = $(this).serialize();
+  //alert(form_data);
+  $.ajax({
+    url:"admin-management.php",
+    method:"post",
+    data:form_data,
+    success:function(data){
+      //alert(data);
+      location.reload();
+    }
+  })
+}); -->

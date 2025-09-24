@@ -1,7 +1,7 @@
 .required{
     color: red;
 }
-.about_drc, .drc_contacts{
+.about_drc, .drc_contacts, .drc_logo{
     margin: 2%;
 }
 .about_drc p, .drc_contacts p, .about_drc h5{
@@ -12,6 +12,9 @@
 .about_drc h1, .drc_programs h1, .drc_contacts h1{
     font-size: 32px;
     line-height: 1.5;
+}
+#img_sdacked{
+    width: 100%;
 }
 .drc_programs h1{
     text-align: center;

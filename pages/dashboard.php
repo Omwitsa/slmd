@@ -1,3 +1,25 @@
+<?php include '../services/database_connection.php'; 
+    $count = 0; 
+
+    $participantsQuery = "SELECT * FROM `personal_data`";
+    $participantsStatement = $connect->prepare($participantsQuery);
+    $participantsStatement->execute();
+    $participantsCount = $participantsStatement->rowCount();
+
+    $clusterQuery = "SELECT * FROM `cluster`";
+    $clusterStatement = $connect->prepare($clusterQuery);
+    $clusterStatement->execute();
+    $clustersCount = $clusterStatement->rowCount();
+
+    $groupQuery = "SELECT * FROM `group`";
+    $groupStatement = $connect->prepare($groupQuery);
+    $groupStatement->execute();
+    $groupsCount = $groupStatement->rowCount();
+
+    $coursesCount = 7;
+
+?>
+
 <div class="container-fluid"><br>
    <div class="row drc_logo">
       <div class="col-md-2 col-sm-12">
@@ -45,14 +67,49 @@
       </div>
       
       <div class="row">
-         <div class="col-md-4 col-sm-12">
-            <img src="../assets/images/product1.png" alt="Product">
+         <div class="col-md-3 col-sm-12">
+            <!-- <img src="../assets/images/product1.png" alt="Product"> -->
+             <div class="card dashboard-product">
+               <span>Project participants</span>
+               <h2 class="dashboard-total-products"><?php echo $participantsCount ?></h2>
+               <!-- <span class="label label-warning">Sales</span>Arriving Today -->
+               <div class="side-box">
+                  <i class="ti-signal text-warning-color"></i>
+               </div>
+            </div>
          </div>
-         <div class="col-md-4 col-sm-12">
-            <img src="../assets/images/product2.png" alt="Product">
+         <div class="col-md-3 col-sm-12">
+            <!-- <img src="../assets/images/product2.png" alt="Product"> -->
+            <div class="card dashboard-product">
+               <span>No. of clusters</span>
+               <h2 class="dashboard-total-products"><?php echo $clustersCount ?></h2>
+               <!-- <span class="label label-primary">Views</span>View Today -->
+               <div class="side-box ">
+                  <i class="ti-gift text-primary-color"></i>
+               </div>
+            </div>
          </div>
-         <div class="col-md-4 col-sm-12">
-            <img src="../assets/images/product3.png" alt="Product">
+         <div class="col-md-3 col-sm-12">
+            <!-- <img src="../assets/images/product3.png" alt="Product"> -->
+            <div class="card dashboard-product">
+               <span>No. of Groups</span>
+               <h2 class="dashboard-total-products"><?php echo $groupsCount ?></h2>
+               <!-- <span class="label label-success">Sales</span>Reviews -->
+               <div class="side-box">
+                  <i class="ti-direction-alt text-success-color"></i>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-12">
+            <!-- <img src="../assets/images/product3.png" alt="Product"> -->
+            <div class="card dashboard-product">
+               <span>No.of courses</span>
+               <h2 class="dashboard-total-products"><?php echo $coursesCount ?></h2>
+               <!-- <span class="label label-danger">Sales</span>Reviews -->
+               <div class="side-box">
+                  <i class="ti-rocket text-danger-color"></i>
+               </div>
+            </div>
          </div>
       </div>
    </div>

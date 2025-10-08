@@ -114,7 +114,7 @@
       </div>
    </div>
 
-   <div class="row drc_contacts">
+   <!-- <div class="row drc_contacts">
       <div class="col-md-6 col-sm-12">
          <div class="row">
             <div class="col-sm-12"><h1>Contact Us</h1></div>
@@ -130,5 +130,5 @@
       <div class="col-md-6 col-sm-12">
          
       </div>
-   </div>
+   </div> -->
 </div>
